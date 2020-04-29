@@ -1,0 +1,193 @@
+body {
+    background-color: rgba(255, 187, 0, 0.938);;
+}
+
+.body-container {
+    width: 960px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: rgba(255, 187, 0, 0.938);
+    border: black solid 5px;
+}
+
+header {
+    width:960px;
+    height: 150px;
+    margin-right: auto;
+    margin-left : auto;
+    position: relative;
+    border-bottom: black solid 3px;
+}
+
+h1 {
+    position: absolute;
+    top: -21px;
+}
+
+p {
+    font-family: "Hiragino Kaku Gothic StdN";
+    color:yellow;
+    -webkit-text-stroke: 3px black;
+    
+    font-size:50px;
+}
+
+.top-wrapper {
+    width: 960px;
+    height: 100px;
+    margin-top: 52px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #C4C4C4;
+    border-top:solid 3px black;
+    border-bottom:solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-wrapper h2 {
+    font-size: 50px;
+    font-family: "Hiragino Kaku Gothic StdN";
+    color:yellow;
+    -webkit-text-stroke: 4px black;
+}
+
+.type-wrapper {
+    margin-top: 52px;
+}
+
+.type-container {
+    width: 960px;
+    height: 100px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #C4C4C4;
+    border-top:solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.type-wrapper h2 {
+    font-size: 50px;
+    font-family: "Hiragino Kaku Gothic StdN";
+    color:yellow;
+    -webkit-text-stroke: 4px black;
+}
+
+.character-wrapper {
+    margin-top: 52px;
+}
+
+
+table {
+    width: 960px;
+    font-size: 30px;
+    background-color: #C4C4C4;
+    border: black 1px solid;
+    border-top:solid 3px black;
+    border-bottom:solid 3px black;
+    margin-right: auto;
+    margin-left : auto;
+}
+tr {
+    border: black 1px solid;
+}
+th {
+    font-family: "Hiragino Kaku Gothic StdN";
+    color:yellow;
+    -webkit-text-stroke: 3px black;
+    border: black 1px solid;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+}
+td {
+    color:blue;
+    border: black 1px solid;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+}
+
+.chara-image{
+    display: block;
+    width: 100%;
+    height: 400%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 52px;
+    width:960px;
+    height: 120px;
+    margin-right: auto;
+    margin-left : auto;
+    border:solid 1px black;
+    background-color: #C4C4C4;
+    border-top:solid 3px black;
+}
+
+.twitter-img {
+    margin-top: 15px;
+    width:240px;
+    height: 60px;
+    margin-right: auto;
+    margin-left : auto;
+    display: block;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.fab {
+    color:white;
+    font-size:30px;
+    position: absolute;
+    left: 105px;
+    top:15px;
+}
+
+.back-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.Ultiskill-wrapper {
+    margin-top: 52px;
+    width: 960px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #C4C4C4;
+    border-top:solid 3px black;
+    border-bottom:solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-wrapper {
+    margin-top: 52px;
+    width: 960px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #C4C4C4;
+    border-top:solid 3px black;
+    border-bottom:solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ougi-image {
+    /* display: none; */
+    width: 950px;
+}
+
+
